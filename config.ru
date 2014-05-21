@@ -1,3 +1,3 @@
-require 'ChurchSite'
+require './web.rb'
  
 run Sinatra::Application
