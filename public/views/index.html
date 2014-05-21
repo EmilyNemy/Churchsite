@@ -1,48 +1,110 @@
 <html>
-  <head>
+  	<head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="/views/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/views/css/application" rel="stylesheet">
+        <link href="/views/css/application.css" rel="stylesheet">
+        <link href="/views/css/bootstrap-social.css" rel="stylesheet">
+        <link href="/views/css/font-awesome.css" rel="stylesheet">
         
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-</head>
-
-  <body>
-    <!--  <div class="navbar navbar-fixed-top navbar-inverse" role="navigation"> -->
-      <div id="page-wrap" class="container">
+	</head>
+    <body>
+    
+      <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Chrisco</a>
         </div>
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="@font-family-base"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Something else</a></li>
           </ul>
-        </div><!-- /.nav-collapse -->
+        </div>
 
         <br>
         <br>
         <br>	
         <hr>
 
-        <div class="bs-example">
-    	  <ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
-      		<li class="active"><a href="#">This is home</a></li>
-      		<li><a href="#">Praising is awesome</a></li>
-      		<li><a href="#">Awesomeness okay</a></li>
-          </ul>
+      	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+          <!-- <li data-target="#carousel" data-slide-to="2" class=""></li> -->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="/views/images/images.jpeg" alt="Image">
+            <div class="carousel-caption">
+              <h3>Nice things about Chrisco</h3>
+              <p>Flowers</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/views/images/flowers.jpeg" alt="Flowers">
+            <div class="carousel-caption">
+              <h3>Again nice things here</h3>
+              <p>More flowers</p>
+            </div>
+          </div>
         </div>
-      </div><!-- /.container -->
-    <!-- </div> -->
 
-   
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
 
-  </body>
+      <hr>
+
+      <div class="col-sm-9 col-md-8">
+        <div class="thumbnail">
+          <div class="caption">
+            <h3>Nice title</h3>
+            <p>And then the content... I am glad that I am going to get content.... Aren't you happy for. You better be coz.... See what you have done. i can actually see the wholes left on my skin. hahahah I gatcha what is happening . I have to write content and it is not ending see this ... it is what they call coolness.</p>
+            <p>And then the content... I am glad that I am going to get content.... Aren't you happy for. You better be coz.... See what you have done. i can actually see the wholes left on my skin. hahahah I gatcha what is happening . I have to write content and it is not ending see this ... it is what they call coolness.</p>
+            <p>And then the content... I am glad that I am going to get content.... Aren't you happy for. You better be coz.... See what you have done. i can actually see the wholes left on my skin. hahahah I gatcha what is happening . I have to write content and it is not ending see this ... it is what they call coolness.</p>
+            <p>I hope we can hace some pictures... Make this look cool.</p>
+          </div>
+        </div>
+      </div>
+
+	  <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <p><a href="">Watch this space</a></p>
+            <p><a href="">Program</a></p>
+            <p><a href="">Suggestions</a></p>
+          </div>
+        </div>
+      </div> 
+      </div>
+
+      <hr>
+      <footer class="bs-docs-footer" role="contentinfo">
+  		<div class="container pull-center">
+    		<div class="bs-docs-social">
+  				<div class="bs-docs-social-buttons">
+      				<a class="btn btn-block btn-social btn-xs btn-facebook" style="width: 70px; height: 20px;">
+      					<i class="fa fa-facebook"></i>Like
+      				</a>
+  				</div>
+  			</div>
+  		</div>
+	  </footer>
+	  
+  	</body>
 
 </html>
