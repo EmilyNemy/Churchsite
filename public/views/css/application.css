@@ -1,9 +1,5 @@
 body {
-  text-align: center;
- }
-
-#page-wrap {
-  text-align: left;
-  width: 800px;
-  margin: 0 auto;
+	background-color: rgb(225, 223, 226);	
+	font-family: Chalkboard, Comic sans;
+	/*font-size: 12px;*/
 }
