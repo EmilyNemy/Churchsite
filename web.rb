@@ -8,3 +8,7 @@ end
 get '/events' do
 	erb :events
 end
+
+get '/youth' do
+	erb :youth	
+end
