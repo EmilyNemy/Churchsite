@@ -1,8 +1,7 @@
 require 'sinatra'
 
 get '/' do
-    redirect 'public/views/index.html'
-   
+    erb :index
 end
 
 
