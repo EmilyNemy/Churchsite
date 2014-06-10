@@ -12,3 +12,11 @@ end
 get '/youth' do
 	erb :youth	
 end
+
+get '/store' do
+	erb :store
+end
+
+get '/contact' do	
+	erb :contact
+end
