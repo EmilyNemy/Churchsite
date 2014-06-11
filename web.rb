@@ -20,3 +20,11 @@ end
 get '/contact' do	
 	erb :contact
 end
+
+get '/donate' do
+	erb :donate
+end
+
+get	'/about' do
+	erb :about
+end
